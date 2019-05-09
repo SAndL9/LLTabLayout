@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		845CD0E52283F7FF00D740D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 845CD0E42283F7FF00D740D5 /* AppDelegate.m */; };
+		845CD0E82283F7FF00D740D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845CD0E72283F7FF00D740D5 /* ViewController.m */; };
+		845CD0EB2283F7FF00D740D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845CD0E92283F7FF00D740D5 /* Main.storyboard */; };
+		845CD0ED2283F80100D740D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845CD0EC2283F80100D740D5 /* Assets.xcassets */; };
+		845CD0F02283F80100D740D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845CD0EE2283F80100D740D5 /* LaunchScreen.storyboard */; };
+		845CD0F32283F80100D740D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 845CD0F22283F80100D740D5 /* main.m */; };
+		845CD0FC2283F85900D740D5 /* LLTabLayoutContainersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845CD0FB2283F85900D740D5 /* LLTabLayoutContainersViewController.m */; };
+		845CD0FF2283F87500D740D5 /* LLTabLayoutCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 845CD0FE2283F87500D740D5 /* LLTabLayoutCollectionCell.m */; };
+		845CD102228403DB00D740D5 /* LLTabLayoutDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845CD101228403DB00D740D5 /* LLTabLayoutDemoViewController.m */; };
+		845CD105228403E800D740D5 /* LLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845CD104228403E800D740D5 /* LLMainViewController.m */; };
+		D243EBFCD9DDEFC6E5E7015D /* Pods_LLTabLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13E8053E0BF0ECDD18C0D55 /* Pods_LLTabLayout.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F3A4A6EA421FBEAB7068995 /* Pods-LLTabLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLTabLayout.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LLTabLayout/Pods-LLTabLayout.debug.xcconfig"; sourceTree = "<group>"; };
+		845CD0E02283F7FF00D740D5 /* LLTabLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLTabLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		845CD0E32283F7FF00D740D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		845CD0E42283F7FF00D740D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		845CD0E62283F7FF00D740D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		845CD0E72283F7FF00D740D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		845CD0EA2283F7FF00D740D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		845CD0EC2283F80100D740D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		845CD0EF2283F80100D740D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		845CD0F12283F80100D740D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845CD0F22283F80100D740D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		845CD0FA2283F85900D740D5 /* LLTabLayoutContainersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLTabLayoutContainersViewController.h; sourceTree = "<group>"; };
+		845CD0FB2283F85900D740D5 /* LLTabLayoutContainersViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLTabLayoutContainersViewController.m; sourceTree = "<group>"; };
+		845CD0FD2283F87500D740D5 /* LLTabLayoutCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLTabLayoutCollectionCell.h; sourceTree = "<group>"; };
+		845CD0FE2283F87500D740D5 /* LLTabLayoutCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLTabLayoutCollectionCell.m; sourceTree = "<group>"; };
+		845CD100228403DB00D740D5 /* LLTabLayoutDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLTabLayoutDemoViewController.h; sourceTree = "<group>"; };
+		845CD101228403DB00D740D5 /* LLTabLayoutDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLTabLayoutDemoViewController.m; sourceTree = "<group>"; };
+		845CD103228403E800D740D5 /* LLMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLMainViewController.h; sourceTree = "<group>"; };
+		845CD104228403E800D740D5 /* LLMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLMainViewController.m; sourceTree = "<group>"; };
+		BE898E26776A3A517CC1D657 /* Pods-LLTabLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLTabLayout.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLTabLayout/Pods-LLTabLayout.release.xcconfig"; sourceTree = "<group>"; };
+		F13E8053E0BF0ECDD18C0D55 /* Pods_LLTabLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LLTabLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		845CD0DD2283F7FF00D740D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D243EBFCD9DDEFC6E5E7015D /* Pods_LLTabLayout.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FCBAD370A57A4DDDB73F467 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F13E8053E0BF0ECDD18C0D55 /* Pods_LLTabLayout.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		845CD0D72283F7FF00D740D5 = {
+			isa = PBXGroup;
+			children = (
+				845CD0E22283F7FF00D740D5 /* LLTabLayout */,
+				845CD0E12283F7FF00D740D5 /* Products */,
+				C8603882581F0D14BFCC8FB8 /* Pods */,
+				7FCBAD370A57A4DDDB73F467 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		845CD0E12283F7FF00D740D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				845CD0E02283F7FF00D740D5 /* LLTabLayout.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		845CD0E22283F7FF00D740D5 /* LLTabLayout */ = {
+			isa = PBXGroup;
+			children = (
+				845CD0F92283F82D00D740D5 /* TabLaout */,
+				845CD0E32283F7FF00D740D5 /* AppDelegate.h */,
+				845CD0E42283F7FF00D740D5 /* AppDelegate.m */,
+				845CD0E62283F7FF00D740D5 /* ViewController.h */,
+				845CD0E72283F7FF00D740D5 /* ViewController.m */,
+				845CD103228403E800D740D5 /* LLMainViewController.h */,
+				845CD104228403E800D740D5 /* LLMainViewController.m */,
+				845CD100228403DB00D740D5 /* LLTabLayoutDemoViewController.h */,
+				845CD101228403DB00D740D5 /* LLTabLayoutDemoViewController.m */,
+				845CD0E92283F7FF00D740D5 /* Main.storyboard */,
+				845CD0EC2283F80100D740D5 /* Assets.xcassets */,
+				845CD0EE2283F80100D740D5 /* LaunchScreen.storyboard */,
+				845CD0F12283F80100D740D5 /* Info.plist */,
+				845CD0F22283F80100D740D5 /* main.m */,
+			);
+			path = LLTabLayout;
+			sourceTree = "<group>";
+		};
+		845CD0F92283F82D00D740D5 /* TabLaout */ = {
+			isa = PBXGroup;
+			children = (
+				845CD0FA2283F85900D740D5 /* LLTabLayoutContainersViewController.h */,
+				845CD0FB2283F85900D740D5 /* LLTabLayoutContainersViewController.m */,
+				845CD0FD2283F87500D740D5 /* LLTabLayoutCollectionCell.h */,
+				845CD0FE2283F87500D740D5 /* LLTabLayoutCollectionCell.m */,
+			);
+			path = TabLaout;
+			sourceTree = "<group>";
+		};
+		C8603882581F0D14BFCC8FB8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F3A4A6EA421FBEAB7068995 /* Pods-LLTabLayout.debug.xcconfig */,
+				BE898E26776A3A517CC1D657 /* Pods-LLTabLayout.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		845CD0DF2283F7FF00D740D5 /* LLTabLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845CD0F62283F80100D740D5 /* Build configuration list for PBXNativeTarget "LLTabLayout" */;
+			buildPhases = (
+				E090FB7E7E6220AB66694258 /* [CP] Check Pods Manifest.lock */,
+				845CD0DC2283F7FF00D740D5 /* Sources */,
+				845CD0DD2283F7FF00D740D5 /* Frameworks */,
+				845CD0DE2283F7FF00D740D5 /* Resources */,
+				F5D0C030596349CDE12057EF /* [CP] Embed Pods Frameworks */,
+				3A9505C60ED66415DD93730C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LLTabLayout;
+			productName = LLTabLayout;
+			productReference = 845CD0E02283F7FF00D740D5 /* LLTabLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		845CD0D82283F7FF00D740D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "李磊";
+				TargetAttributes = {
+					845CD0DF2283F7FF00D740D5 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 845CD0DB2283F7FF00D740D5 /* Build configuration list for PBXProject "LLTabLayout" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 845CD0D72283F7FF00D740D5;
+			productRefGroup = 845CD0E12283F7FF00D740D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				845CD0DF2283F7FF00D740D5 /* LLTabLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		845CD0DE2283F7FF00D740D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845CD0F02283F80100D740D5 /* LaunchScreen.storyboard in Resources */,
+				845CD0ED2283F80100D740D5 /* Assets.xcassets in Resources */,
+				845CD0EB2283F7FF00D740D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A9505C60ED66415DD93730C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LLTabLayout/Pods-LLTabLayout-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E090FB7E7E6220AB66694258 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LLTabLayout-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5D0C030596349CDE12057EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LLTabLayout/Pods-LLTabLayout-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LLTabLayout/Pods-LLTabLayout-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		845CD0DC2283F7FF00D740D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845CD0E82283F7FF00D740D5 /* ViewController.m in Sources */,
+				845CD102228403DB00D740D5 /* LLTabLayoutDemoViewController.m in Sources */,
+				845CD0F32283F80100D740D5 /* main.m in Sources */,
+				845CD0FC2283F85900D740D5 /* LLTabLayoutContainersViewController.m in Sources */,
+				845CD105228403E800D740D5 /* LLMainViewController.m in Sources */,
+				845CD0E52283F7FF00D740D5 /* AppDelegate.m in Sources */,
+				845CD0FF2283F87500D740D5 /* LLTabLayoutCollectionCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		845CD0E92283F7FF00D740D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				845CD0EA2283F7FF00D740D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		845CD0EE2283F80100D740D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				845CD0EF2283F80100D740D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		845CD0F42283F80100D740D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		845CD0F52283F80100D740D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		845CD0F72283F80100D740D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F3A4A6EA421FBEAB7068995 /* Pods-LLTabLayout.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = XDK267KQ83;
+				INFOPLIST_FILE = LLTabLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LiLei.LLTabLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Development *";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		845CD0F82283F80100D740D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE898E26776A3A517CC1D657 /* Pods-LLTabLayout.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LLTabLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LiLei.LLTabLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		845CD0DB2283F7FF00D740D5 /* Build configuration list for PBXProject "LLTabLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845CD0F42283F80100D740D5 /* Debug */,
+				845CD0F52283F80100D740D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		845CD0F62283F80100D740D5 /* Build configuration list for PBXNativeTarget "LLTabLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845CD0F72283F80100D740D5 /* Debug */,
+				845CD0F82283F80100D740D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 845CD0D82283F7FF00D740D5 /* Project object */;
+}
