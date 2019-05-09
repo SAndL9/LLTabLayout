@@ -118,7 +118,7 @@ typedef NS_ENUM(NSInteger, LLTabLayoutFormat){
 
 ```
 演示效果如下:
-![](/Users/lei.li/Desktop/LLTabLayout/LLTabLayout/TabLaout/LLTabLayout.gif
+![](../LLTabLayout/LLTabLayout/TabLaout/LLTabLayout.gif
 )
 
 
