@@ -17,6 +17,7 @@
 		845CD0FF2283F87500D740D5 /* LLTabLayoutCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 845CD0FE2283F87500D740D5 /* LLTabLayoutCollectionCell.m */; };
 		845CD102228403DB00D740D5 /* LLTabLayoutDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845CD101228403DB00D740D5 /* LLTabLayoutDemoViewController.m */; };
 		845CD105228403E800D740D5 /* LLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845CD104228403E800D740D5 /* LLMainViewController.m */; };
+		845CD10722841D4100D740D5 /* LLTabLayout.gif in Resources */ = {isa = PBXBuildFile; fileRef = 845CD10622841D4100D740D5 /* LLTabLayout.gif */; };
 		D243EBFCD9DDEFC6E5E7015D /* Pods_LLTabLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13E8053E0BF0ECDD18C0D55 /* Pods_LLTabLayout.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		845CD101228403DB00D740D5 /* LLTabLayoutDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLTabLayoutDemoViewController.m; sourceTree = "<group>"; };
 		845CD103228403E800D740D5 /* LLMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLMainViewController.h; sourceTree = "<group>"; };
 		845CD104228403E800D740D5 /* LLMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLMainViewController.m; sourceTree = "<group>"; };
+		845CD10622841D4100D740D5 /* LLTabLayout.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = LLTabLayout.gif; sourceTree = "<group>"; };
 		BE898E26776A3A517CC1D657 /* Pods-LLTabLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLTabLayout.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLTabLayout/Pods-LLTabLayout.release.xcconfig"; sourceTree = "<group>"; };
 		F13E8053E0BF0ECDD18C0D55 /* Pods_LLTabLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LLTabLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -106,6 +108,7 @@
 		845CD0F92283F82D00D740D5 /* TabLaout */ = {
 			isa = PBXGroup;
 			children = (
+				845CD10622841D4100D740D5 /* LLTabLayout.gif */,
 				845CD0FA2283F85900D740D5 /* LLTabLayoutContainersViewController.h */,
 				845CD0FB2283F85900D740D5 /* LLTabLayoutContainersViewController.m */,
 				845CD0FD2283F87500D740D5 /* LLTabLayoutCollectionCell.h */,
@@ -183,6 +186,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845CD10722841D4100D740D5 /* LLTabLayout.gif in Resources */,
 				845CD0F02283F80100D740D5 /* LaunchScreen.storyboard in Resources */,
 				845CD0ED2283F80100D740D5 /* Assets.xcassets in Resources */,
 				845CD0EB2283F7FF00D740D5 /* Main.storyboard in Resources */,
